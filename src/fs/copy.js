@@ -1,4 +1,5 @@
 import {access, cp} from "node:fs"
+
 const copy = async () => {
     // checkinng that files folder exists 
     await access(
