@@ -5,7 +5,7 @@ const copy = async () => {
         'src/fs/files', 
         (err) => {
             if (err) {
-                throw new Error ("files directory does not exist")
+                throw new Error ("FS operation failed")
             }
         }
     )
